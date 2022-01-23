@@ -1,5 +1,5 @@
 # Hamlet
-Hamlet Text-Based Adventure
+Hamlet Text-Based Adventure created for Thehacktrical 2022
 
 ## Inspiration
 We wanted to stay true to the theme of Thehacktrical, and make something that was theatre related at its heart, so we chose to make an interactive text adventure based on Hamlet with a twist in C++. 
