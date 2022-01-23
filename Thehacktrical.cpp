@@ -7,11 +7,11 @@ int main()
 {
 	string start_up;
 	
-	cout << "Welcome to our Interactive Hamlet Game! Type 'The Show Must Go On' to begin : "; // changed
+	cout << "Welcome to our Interactive Hamlet Game! The Show Must Go On, to begin, type 'START' : "; // changed
 	
 	cin >> start_up;
 	
-	while (start_up == "n" || "N")
+	while (start_up == " S " || "s")
 
 	{	
 	string mom;
@@ -61,14 +61,14 @@ int main()
 		if (mom == "hide")
 		{ 
 			cout << endl;
-			cout << "ACT 3 << endl" << endl;
+			cout << "ACT 3" << endl;
 			cout << endl;
 			cout << "You have hidden the body." << endl;
 		}
 		else if(mom == "Ophelia")
 		{
 			cout << endl;
-			cout << "ACT 3 << endl" << endl;
+			cout << "ACT 3" << endl;
 			cout << endl;
 			cout << "Ophelia screams and goes mad herself!" << endl;
 			cout << "Ophelia sees the body of her father, Polonious, and drowns herself." << endl;
@@ -79,7 +79,7 @@ int main()
 			break;
 		}
 		cout << endl;
-		cout << "ACT 4 << endl" << endl;
+		cout << "ACT 4" << endl;
 		cout << endl;
 		cout << "Claudius has sent the guards for you. " << endl;
 		cout << "You have been caught and exiled to England." << endl;
@@ -92,7 +92,7 @@ int main()
 		if (go == "home")
 		{
 			cout << endl;
-			cout << "ACT 5 << endl" << endl;
+			cout << "ACT 5" << endl;
 			cout << endl;
 			cout << "You return to the castle and are challenged to a fencing match by Laertes." << endl;
 			cout << "You are stabbed by Laertes blade. He admits that the blade is coated in poison, which was Claudius' plan to kill you." << endl;
@@ -108,7 +108,7 @@ int main()
 		else if (go == "grave")
 		{
 			cout << endl;
-			cout << "ACT 5 << endl" << endl;
+			cout << "ACT 5" << endl;
 			cout << endl;
 			cout << "Alas poor Yorrick, I knew him well. " << endl;
 			cout << "You see Ophelia's burial, and proclaim your love for her." << endl;
@@ -151,14 +151,14 @@ int main()
 		if (go == "castle")
 		{
 			cout << endl;
-			cout << "ACT 5 << endl" << endl;
+			cout << "ACT 5" << endl;
 			cout << endl;
 			cout << "You decide to go directly to the party." << endl;
 		}
 		else if (go == "grave")
 		{
 			cout << endl;
-			cout << "ACT 5 << endl" << endl;
+			cout << "ACT 5" << endl;
 			cout << endl;
 			cout << "Alas poor Yorrick, I knew him well. " << endl;
 			cout << "You contemplate the meaning of death." << endl;
